@@ -1,0 +1,13 @@
+/* .cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+} */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 5px;
+    gap: 5px;
+}
