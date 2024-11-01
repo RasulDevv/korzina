@@ -35,7 +35,7 @@ const Korzina = ({arr,setArr,korzinaRestart}) => {
                     setKorzina={setArr}
                     k={true} 
                   />
-        }) : <h3>korzina bo'sh</h3>}
+        }) : <h3>korzina bo'sh juda</h3>}
       </div>
       {len ? <h2>Total price: ${totalPrice}</h2> : ""}
     </>
